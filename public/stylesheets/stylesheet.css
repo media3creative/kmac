@@ -218,7 +218,7 @@ body {
 }
 
 h1 {
-  font-family: "Georgia";
+  font-family: TrebuchetMS;
   font-size: 24px;
   color: black;
   margin-left: 30px;
@@ -245,9 +245,9 @@ p {
   margin-left: 30px;
   margin-right: 20px;
   margin-top: 5px;
-  letter-spacing: 0.1em;
-  font-family: "Georgia";
-  font-size: 15px;
+  letter-spacing: 0.07em;
+  font-family: TrebuchetMS;
+  font-size: 13px;
 }
 
 img {
