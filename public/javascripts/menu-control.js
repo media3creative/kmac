@@ -7,7 +7,6 @@ var is_iphone = ((agent.indexOf('iphone') != -1));
 var is_ipad = ((agent.indexOf('ipad') != -1));
 var is_safari = ((agent.indexOf('safari') != -1));
 jQuery.noConflict();
-
 function menu_appear(menu_item,delay_count,offset){
 	var width_1 = 250 + Math.random()*50 + "px"
 	var width_2 = 150 + Math.random()*50 + "px"
@@ -47,6 +46,7 @@ function closeSubmenu(){
 		}
 }
 jQuery(document).ready(function() {
+  
 	var scroll1, scroll2;
   function loaded() {
   //scroll1 = new iScroll('homePage', { useTransition:true });
@@ -74,8 +74,9 @@ jQuery(document).ready(function() {
 	menu_appear("#main-5-link",2250);
 	menu_appear("#main-6-link",2500);
 	menu_appear("#main-7-link",2750);
-	menu_appear("#main-8-link",3000);
+	menu_appear("#main-8-link",1000);
 	//==============
+	changePage("#page8","bg_1.jpg");
 	jQuery('#main-1-link').click(function(){
 		changePage("#page1","bg_1.jpg");
 	});
@@ -98,7 +99,7 @@ jQuery(document).ready(function() {
 		changePage("#page7","bg_3.jpg");
 	});
 	jQuery('#main-8-link').click(function(){
-		changePage("#page8","bg_4.jpg");
+		changePage("#page8","bg_1.jpg");
 	});
 		// pageComeOut();
 	//=====MOUSE ENTER MENU ITEM==============
@@ -225,7 +226,7 @@ function changePage(targetPage,targetBg){
 function slideShow(){
 	//alert(currentPage)
 	if(currentPage == "#homePage"
-	|| currentPage == "#page0"){
+	|| currentPage == "#page1"){
 		whichPic += 1;
 		if(whichPic == 1){
 			switchBg("bg_1.jpg");

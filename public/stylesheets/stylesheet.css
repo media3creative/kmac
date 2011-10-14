@@ -93,6 +93,7 @@
   background-color: white;
   padding-top: 20px;
   padding-left: 30px;
+  z-index: 100;
 }
 
 .footer {
@@ -118,6 +119,7 @@
   left: -10px;
   height: 211px;
   width: 200px;
+  z-index: 100;
   font-family: TrebuchetMS;
   font-weight: 20;
 }
