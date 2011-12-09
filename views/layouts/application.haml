@@ -32,24 +32,12 @@
 
 
   %body{:onorientationchange =>"ipadFunc();"}
-  //.preloader
-  //  .preloader-box
-  //    %img{:height => "40", :src => "/images/75.gif", :width => "40"}
   .bg2
   .bg1
   .left-side-bar-bg
   .left-side-bar
     .logo
       %img.homeLogoBtn{:height => "115", :src => "/images/logo.png", :width => "253", :border => "0", :class => "icon", :href => "#"}
-      //%p 5510 MORNINGSIDE, No. 120
-      //%p HOUSTON, TEXAS 77005
-      //%p.phone-num 713-590-0610
-      //%p INFO@FELIX55.COM
-      //.social-icon
-      //  %a{:href => "http://www.facebook.com/felix55houston", :target => "_blank"}
-      //    %img{:height => "30", :src => "/images/facebook_logo.png", :width => "30", :border => "0", :class => "icon"}
-      //  %a{:href => "http://twitter.com/Felix55houston", :target => "_blank"}
-      //    %img{:height => "30", :src => "/images/twitter_logo.png", :width => "30", :border => "0", :class => "icon"}
   .menu-container
     %ul
       %li
@@ -147,13 +135,13 @@
       %p Your content goes here
   #page8{:style=>"height: 500px;"}
     .content{:style=>"margin-left: -100px;height: 500px;"}
-      %object{:data => "http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf", :height => "300", :type => "application/x-shockwave-flash", :width => "800", :style => "margin-top: 180px;height: 450px; width: 750px;"}
-        %param{:name => "movie", :value => "http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf"}/
-        %param{:name => "allowfullscreen", :value => "true"}/
-        %param{:name => "flashvars", :value => "config={\"playlist\":[\"http://video-js.zencoder.com/oceans-clip.png\", {\"url\": \"http://video-js.zencoder.com/oceans-clip.mp4\",\"autoPlay\":false,\"autoBuffering\":true}]}"}/
-        / Image Fallback. Typically the same as the poster image.
-        %img{:alt => "Poster Image", :height => "264", :src => "http://video-js.zencoder.com/oceans-clip.png", :title => "No video playback capabilities.", :width => "640"}/
-      / Download links provided for devices that can't play video in the browser.
+      / %object{:data => "http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf", :height => "300", :type => "application/x-shockwave-flash", :width => "800", :style => "margin-top: 180px;height: 450px; width: 750px;"}
+      /   %param{:name => "movie", :value => "http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf"}/
+      /   %param{:name => "allowfullscreen", :value => "true"}/
+      /   %param{:name => "flashvars", :value => "config={\"playlist\":[\"http://video-js.zencoder.com/oceans-clip.png\", {\"url\": \"http://video-js.zencoder.com/oceans-clip.mp4\",\"autoPlay\":false,\"autoBuffering\":true}]}"}/
+      /   / Image Fallback. Typically the same as the poster image.
+      /   %img{:alt => "Poster Image", :height => "264", :src => "http://video-js.zencoder.com/oceans-clip.png", :title => "No video playback capabilities.", :width => "640"}/
+      / / Download links provided for devices that can't play video in the browser.
 
   .footer
     Copyright &copy Underworld Inc, 2011. All Rights Reserved. 
